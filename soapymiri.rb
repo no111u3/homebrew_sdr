@@ -6,6 +6,7 @@ class Soapymiri < Formula
   depends_on 'cmake' => :build
   depends_on 'libusb'
   depends_on 'libmirisdr5'
+  depends_on 'soapysdr'
 
   def install
     mkdir "build" do
