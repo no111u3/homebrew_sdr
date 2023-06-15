@@ -1,6 +1,6 @@
 class Libmirisdr5 < Formula
   homepage 'https://github.com/ericek111/libmirisdr-5'
-  head 'git@github.com:ericek111/libmirisdr-5.git'
+  head 'https://github.com/ericek111/libmirisdr-5.git'
 
   depends_on "pkg-config" => :build
   depends_on 'cmake' => :build
