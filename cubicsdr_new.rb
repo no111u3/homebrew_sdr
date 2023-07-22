@@ -1,4 +1,4 @@
-class Cubicsdr < Formula
+cask 'cubicsdr_new' do
   homepage 'https://github.com/cjcliffe/CubicSDR'
   head 'https://github.com/cjcliffe/CubicSDR.git'
 
@@ -8,11 +8,5 @@ class Cubicsdr < Formula
   depends_on 'soapysdr'
   depends_on 'wxwidgets'
 
-  def install
-    mkdir "build" do
-      system "cmake", "..", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release -DBUNDLE_APP=1 -DCPACK_BINARY_DRAGNDROP=1"
-      system "make"
-      system "make install"
-    end
-  end
+  app "CubicSDR_new"
 end
