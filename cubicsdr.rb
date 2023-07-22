@@ -1,4 +1,4 @@
-class CubicSdr < Formula
+class Cubicsdr < Formula
   homepage 'https://github.com/cjcliffe/CubicSDR'
   head 'https://github.com/cjcliffe/CubicSDR.git', branch: "main"
 
