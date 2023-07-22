@@ -1,6 +1,6 @@
 class Cubicsdr < Formula
   homepage 'https://github.com/cjcliffe/CubicSDR'
-  head 'https://github.com/cjcliffe/CubicSDR.git', branch: "main"
+  head 'https://github.com/cjcliffe/CubicSDR.git'
 
   depends_on "pkg-config" => :build
   depends_on 'cmake' => :build
