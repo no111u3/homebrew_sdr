@@ -1,5 +1,5 @@
 class Soapymiri < Formula
-  homepage 'https://github.com/ericek111/libmirisdr-5'
+  homepage 'https://github.com/ericek111/SoapyMiri'
   head 'https://github.com/ericek111/SoapyMiri.git', branch: "main"
 
   depends_on "pkg-config" => :build
