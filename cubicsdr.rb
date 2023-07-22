@@ -11,6 +11,7 @@ class Cubicsdr < Formula
   def install
     mkdir "build" do
       system "cmake", "..", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release -DBUNDLE_APP=1 -DCPACK_BINARY_DRAGNDROP=1"
+      system "make"
       system "codesign --force --deep --sign - x64/CubicSDR.app"
       system "make install"
     end
