@@ -1,6 +1,6 @@
 cask 'cubicsdr_new' do
   homepage 'https://github.com/cjcliffe/CubicSDR'
-  head 'https://github.com/cjcliffe/CubicSDR.git'
+  url 'https://github.com/cjcliffe/CubicSDR.git'
 
   depends_on "pkg-config" => :build
   depends_on 'cmake' => :build
